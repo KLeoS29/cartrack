@@ -1,11 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import UserList from "./components/UserList";
+import './style.css';
 
 const App = () => (
-    <h1>
-        Cartrack{" "}
-        {new Date().toLocaleDateString()}
-    </h1>
+    <UserList />
 );
 
 ReactDOM.render(
